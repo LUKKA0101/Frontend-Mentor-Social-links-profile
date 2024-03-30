@@ -1,0 +1,106 @@
+@font-face {
+    font-family: 'Inter';
+    src: url(assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --Green: hsl(75, 94%, 57%);
+
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 20%);
+    --Dark-Grey: hsl(0, 0%, 12%);
+    --Off-Black: hsl(0, 0%, 8%);
+
+    --font: 'Inter';
+}
+
+html {
+    height: 100vh;
+}
+
+body {
+    background-color: var(--Off-Black);
+    font-family: var(--font);
+    height: 100vh;
+    min-width: 50vh;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 98%;
+}
+
+section {
+    background-color: var(--Dark-Grey);
+    padding: 2rem 2rem 1rem 2rem;
+    border-radius: 10px;
+    margin: 0 1rem;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+img {
+    width: 5rem;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.name {
+    color: var(--White);
+}
+
+.place-that-lives {
+    color: var(--Green);
+    font-size: 12px;
+    margin-bottom: 2rem;
+}
+
+.user-description {
+    color: var(--White);
+    font-size: 12px;
+}
+
+.button-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.button-list button {
+    background-color: var(--Grey);
+    color: var(--White);
+    font-family: var(--font);
+    font-weight: 600;
+    padding: 0.7rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-radius: 5px;
+}
+
+.button-list button:hover {
+    cursor: pointer;
+    background-color: var(--Green);
+    color: var(--Dark-Grey);
+}
+
+.attribution { 
+    font-size: 11px;
+    text-align: center;
+    color: var(--White);
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+}
