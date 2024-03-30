@@ -10,5 +10,5 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 
 ### Links
 
-- Solution URL: [](https://github.com/LUKKA0101/Frontend-Mentor-Social-links-profile.git)
-- Live Site URL: [](https://frontend-mentor-social-links-profile-phi.vercel.app/)
+- Solution URL: [Link to repository](https://github.com/LUKKA0101/Frontend-Mentor-Social-links-profile.git)
+- Live Site URL: [Link to live server](https://frontend-mentor-social-links-profile-phi.vercel.app/)
